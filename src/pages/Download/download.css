@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@700&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.mmm{
+    /* height: 806.9930419921875px; */
+/* width: 1440px; */
+left: 50px;
+bottom: 202px;
+border-radius: 0px;
+}
+
+.mma{
+    bottom: 202px;   
+}
+.download-page{
+    margin-top: 55%;
+}
+.down-para1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FA4A0C;
+}
+
+.down-para3{
+    font-weight: 500;
+    font-size: 14px;
+    color: #737373;
+    letter-spacing: 0.2px;
+    margin-top: 4%;
+}
+
+.download-page h3{
+    font-weight: 700;
+    color: #252B42;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 768px) {
+    .mmm {
+      left: 0;
+      bottom: auto;
+      border-radius: 10px;
+    }
+    
+    .mma {
+      bottom: auto;
+    }
+    
+    .download-page {
+      margin-top: 30%;
+      text-align: center;
+    }
+    
+    
+    .download-page h3 {
+      margin-top: 10%;
+      
+    }
+    
+    .down-para1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .down-para3 {
+      font-size: 18px;
+      letter-spacing: 0px;
+    }
+    .shithole{
+      order: 2;
+    }
+    .holeshit{
+      order: 1;
+    }
+
+    .phone3-img{
+      width: 100%;
+      justify-items: center;
+    }
+    
+  }

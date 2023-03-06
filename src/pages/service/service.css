@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.lineee{
+    margin-top: 30%;
+    text-align: center;
+}
+
+.imgword{
+    font-weight: 600;
+    color: #000000;
+}
+@media screen and (max-width: 768px) {
+    .lineee {
+      margin-top: 150%;
+       
+    }
+    .imgword{
+        order: 1;
+    }
+
+    .linng{
+        width: 100%;
+        order: 2;
+    }
+    .imglin{
+        font-size: 6px;
+    }
+    .shithole{
+        order: 2;
+      }
+      .holeshit{
+        order: 1;
+      }
+  }
