@@ -81,3 +81,36 @@ border-radius: 0px;
     }
     
   }
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .phone3-img{
+      width: 70%;
+      justify-items: center;
+    }
+    .download-page h3 {
+      margin-top: 10%;
+      font-size: 18px;
+    }
+    .dide{
+      text-align: center;
+      
+    }
+    .download-page{
+      margin: auto;
+    }
+
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1400px){
+    .phone3-img{
+      width: 100%;
+      justify-items: center;
+    }
+    .download-page  {
+      margin-top: 50%;
+      font-size: 18px;
+    }
+    /* .download-page{
+      margin: auto;
+    } */
+
+  }

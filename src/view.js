@@ -4,6 +4,7 @@ import Herosection from "./pages/Hero/Hero"
 import Service from './pages/service/Service'
 import Download from './pages/Download/Download'
 import Footer from './pages/service/Footer/Footer'
+import Last from "./pages/Lastpage/Last"
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Service/>
       <Download/>
       <Footer/>
+      <Last/>
     </div>
   )
 }

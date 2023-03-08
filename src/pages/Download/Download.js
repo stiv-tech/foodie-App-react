@@ -6,7 +6,7 @@ import phone5 from "../../assests/phone5.png"
 
 function Download() {
   return (
-    <div className='container'>
+    <div className='container dide'>
       <div className='row'>
         <div className='col-sm-12 col-md-12 col-lg-6 shithole'>
            <div className='download-img'>

@@ -51,7 +51,7 @@
     background: url(/src/assests/footer-img.png);
 }
 
-@media only screen and (max-width: 900px)  and (min-width: 300px) {
+@media only screen and (max-width: 650px)   {
     /* styles for mobile devices */
     .footer-item {
       font-size: 32px;
@@ -81,18 +81,18 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     /* styles for small desktops */
     .footer-item {
       font-size: 50px;
       padding-top: 200px;
     }
     .footer-para {
-      font-size: 22px;
+      font-size: 18px;
     }
     .footer-pg{
       background: #252B42;
-      height: 75vh;
+      /* height: 50vh; */
     }
   }
   
