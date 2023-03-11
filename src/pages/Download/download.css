@@ -89,11 +89,12 @@ border-radius: 0px;
     .download-page h3 {
       margin-top: 10%;
       font-size: 18px;
-    }
-    .dide{
-      text-align: center;
       
     }
+    /* .dide{
+      text-align: center;
+      
+    } */
     .download-page{
       margin: auto;
     }

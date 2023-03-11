@@ -12,9 +12,11 @@
     font-weight: 600;
     color: #000000;
 }
+
 @media screen and (max-width: 768px) {
     .lineee {
       margin-top: 150%;
+      flex-direction: row-reverse;
        
     }
     .imgword{
@@ -38,6 +40,7 @@
   @media only screen and (min-width: 768px) and (max-width: 1024px){
     .lineee {
         margin-top: 50%; 
+        flex-direction: column-reverse;
       }
       .linng{
         width: 90%;

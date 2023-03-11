@@ -26,6 +26,9 @@
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
+.footer-para1{
+display: none;
+}
 
 
 .foot-btn1{
@@ -44,11 +47,17 @@
 .foot-btn11{
     outline: none;
     box-shadow: none;
-    border: 0;
+    border: 1.4px solid #fff;
     color: #fff;
     border-radius: 10px;
     padding: 7px 27px;
-    background: url(/src/assests/footer-img.png);
+    background-color: transparent;
+}
+.foot-btn111{
+  display: none;
+}
+.footer-btnn{
+  display: none;
 }
 
 @media only screen and (max-width: 650px)   {
@@ -64,6 +73,24 @@
       background: #252B42;
       height: 50vh;
     }
+    .foot-btn11{
+      border: 1.4px solid #fff;
+      color: #fff;
+    }
+    .footer-para{
+     display: none;
+    }
+    .footer-para1{
+      color: #fff;
+      display: block;
+    }
+    .footer-btnn{
+      display: block;
+    }
+    .footer-btn{
+      display: none;
+    }
+    
   }
   
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -79,6 +106,19 @@
       background: #252B42;
       height: 50vh;
     }
+    .footer-para{
+      display: none;
+     }
+     .footer-para1{
+       color: #fff;
+       display: block;
+     }
+     .footer-btnn{
+       display: block;
+     }
+     .footer-btn{
+       display: none;
+     }
   }
   
   @media only screen and (min-width: 1024px) and (max-width: 1400px) {
@@ -93,6 +133,19 @@
     .footer-pg{
       background: #252B42;
       /* height: 50vh; */
+    }
+    .footer-para{
+     display: none;
+    }
+    .footer-para1{
+      color: #fff;
+      display: block;
+    }
+    .footer-btnn{
+      display: block;
+    }
+    .footer-btn{
+      display: none;
     }
   }
   
