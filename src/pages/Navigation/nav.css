@@ -16,7 +16,7 @@
 .pro{
     color: #252B42 !important;
 }
-@media only screen and (min-width: 1024px) and (max-width: 1400px){
+@media screen and (min-width: 1024px) and (max-width: 1400px){
     .navbar-nav{
         margin: auto;
     }

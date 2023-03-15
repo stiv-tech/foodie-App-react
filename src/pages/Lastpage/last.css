@@ -32,7 +32,7 @@
         font-weight: 700;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .last-top{
         text-align: center;
         margin: auto;

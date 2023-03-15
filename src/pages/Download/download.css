@@ -37,11 +37,14 @@ border-radius: 0px;
     margin-top: 4%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
     .mmm {
       left: 0;
       bottom: auto;
       border-radius: 10px;
+    }
+    .shithole{
+      flex-direction: column-reverse;
     }
     
     .mma {
@@ -49,59 +52,74 @@ border-radius: 0px;
     }
     
     .download-page {
-      margin-top: 30%;
+      margin-top: 0%;
       text-align: center;
     }
     
     
     .download-page h3 {
-      margin-top: 10%;
+      margin-top: 0%;
       
     }
     
     .down-para1 {
         font-weight: 700;
         font-size: 24px;
+        margin-top: 0%;
     }
     
     .down-para3 {
       font-size: 18px;
       letter-spacing: 0px;
     }
-    .shithole{
-      order: 2;
-    }
-    .holeshit{
-      order: 1;
-    }
 
     .phone3-img{
       width: 100%;
       justify-items: center;
     }
+    .download-img{
+      margin-left: 20%;
+    }
     
   }
-  @media only screen and (min-width: 768px) and (max-width: 1024px){
+  @media  screen and (min-width: 768px) and (max-width: 1023px){
     .phone3-img{
-      width: 70%;
-      justify-items: center;
+      width: 100%;
+     
     }
+    /* .download-img{
+      margin-top: 5% !important;
+    } */
     .download-page h3 {
-      margin-top: 10%;
+      margin-top: auto;
       font-size: 18px;
       
     }
-    /* .dide{
-      text-align: center;
-      
+    /* .shithole{
+     margin-right: 20%;
     } */
-    .download-page{
-      margin: auto;
+  
+    /* .seezie{
+      margin-top: 5%;
+    } */
+    .row {
+      display: flex;
     }
+    
+    .column {
+      flex: 50%;
+    }
+    .linebreak{
+      display: none;
+    }
+    .adc{
+      margin-top: 5%;
+    }
+  
 
   }
 
-  @media only screen and (min-width: 1024px) and (max-width: 1400px){
+  @media screen and (min-width: 1024px) and (max-width: 1400px){
     .phone3-img{
       width: 100%;
       justify-items: center;
@@ -110,8 +128,5 @@ border-radius: 0px;
       margin-top: 50%;
       font-size: 18px;
     }
-    /* .download-page{
-      margin: auto;
-    } */
 
   }

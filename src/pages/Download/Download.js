@@ -6,14 +6,14 @@ import phone5 from "../../assests/phone5.png"
 
 function Download() {
   return (
-    <div className='container dide'>
+    <div className='container'>
       <div className='row'>
-        <div className='col-sm-12 col-md-12 col-lg-6 shithole'>
+        <div className='col-sm-12 col-md-12 col-lg-6 column adc'>
            <div className='download-img'>
              <img src={phone3} alt="" className='phone3-img'/>
            </div>
         </div>
-        <div className='col-sm-12 col-md-12 col-lg-6 holeshit'>
+        <div className='col-sm-12 col-md-12 col-lg-6 column'>
             <div className='download-page'>
                 <p className='down-para1'>Create an account</p>
                 <h3>Create/login to an existing <br/> account to get started</h3>
@@ -22,9 +22,10 @@ function Download() {
         </div>
         
       </div>
+    
 
       <div className='row'>
-        <div className='col-sm-12 col-md-12 col-lg-6 mmm'>
+        <div className='col-sm-12 col-md-12 col-lg-6 mmm holeshit column'>
             <div className='download-page'>
                 <p className='down-para1'>Explore varieties</p>
                 <h3>Shop for your favorites <br/> meal as e dey hot.</h3>
@@ -32,7 +33,7 @@ function Download() {
             </div>
         </div>
 
-        <div className='col-sm-12 col-md-12 col-lg-6 mma shithole'>
+        <div className='col-sm-12 col-md-12 col-lg-6 mma shithole column adc'>
            <div className='download-img'>
              <img src={phone4} alt="" className='phone3-img'/>
            </div>
@@ -40,13 +41,13 @@ function Download() {
       </div>
 
 
-      <div className='row'>
-        <div className='col-sm-12 col-md-12 col-lg-6 mma holeshit'>
+      <div className='row shithole'>
+        <div className='col-sm-12 col-md-12 col-lg-6 mma column adc'>
            <div className='download-img'>
              <img src={phone5} alt="" className='phone3-img'/>
            </div>
         </div>
-        <div className='col-sm-12 col-md-12 col-lg-6 mma'>
+        <div className='col-sm-12 col-md-12 col-lg-6 mma column'>
             <div className='download-page'>
                 <p className='down-para1'>Checkout</p>
                 <h3>When you done check out <br/> and get it delivered</h3>
