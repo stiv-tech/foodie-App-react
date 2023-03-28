@@ -7,7 +7,7 @@
 .footer-pg{
     text-align: center;
     background: url(/src/assests/footer-img.png);
-    height: 75vh;
+    height: 60vh;
    
     
 }
@@ -60,7 +60,7 @@ display: none;
   display: none;
 }
 
-@media screen and (max-width: 650px)   {
+@media screen and (max-width: 992px)   {
     /* styles for mobile devices */
     .footer-item {
       font-size: 32px;
@@ -93,8 +93,8 @@ display: none;
     
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* styles for tablets */
+  /* @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
     .footer-item {
       font-size: 40px;
       padding-top: 150px;
@@ -119,10 +119,10 @@ display: none;
      .footer-btn{
        display: none;
      }
-  }
+  } */
   
-  @media screen and (min-width: 1024px) and (max-width: 1400px) {
-    /* styles for small desktops */
+  /* @media screen and (min-width: 1024px) and (max-width: 1400px) {
+    
     .footer-item {
       font-size: 50px;
       padding-top: 200px;
@@ -132,7 +132,7 @@ display: none;
     }
     .footer-pg{
       background: #252B42;
-      /* height: 50vh; */
+      height: 50vh;
     }
     .footer-para{
      display: none;
@@ -147,6 +147,6 @@ display: none;
     .footer-btn{
       display: none;
     }
-  }
+  } */
   
   
